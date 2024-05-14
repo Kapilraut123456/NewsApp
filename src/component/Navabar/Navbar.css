@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px 0px 50px;
+}
+.nav li a {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.active-item {
+  background-color: #1d496e;
+  border-radius: 10px;
+}
+.active-item:hover {
+  color: white;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}

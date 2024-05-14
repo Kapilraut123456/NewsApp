@@ -1,0 +1,32 @@
+.card {
+  width: 300px;
+  border-radius: 16px;
+}
+.dark {
+  background-color: rgb(21, 48, 72);
+}
+.read-btn {
+  background-color: rgb(161, 105, 32);
+  color: white;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.source {
+  background-color: rgb(161, 38, 32);
+  color: white;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+.read-btn:hover {
+  background-color: rgb(119, 81, 32);
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
